@@ -1,0 +1,202 @@
+
+
+.wrapper{
+	background:linear-gradient(rgba(0,0,0,0.1),white),url(../Images/Home.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	max-width:100%; 
+	color: white;
+}
+.navbar{
+	position: relative;
+	height: 55px;
+    max-height: 55px;
+    line-height: 53px;
+}
+
+
+.navbar.transparent.navbar-inverse  {
+    border-bottom:1px solid grey; 
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+
+.navbar-inverse .navbar-brand {
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border-bottom: rgba(255,255,255,0.2);
+	opacity: 1;
+	}
+
+.content{
+	margin-top: 70px;
+}
+
+h1.large{
+    font-family: Raleway;
+	font-size: 108px;
+	font-weight: 500;
+	margin-top: 60px;
+
+}
+
+@media (max-width: 576px){
+	h1.large{
+		font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color:white;
+	}
+}
+@media (max-width: 767px){
+    h1.large {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    color:white;
+    }
+}
+@media (max-width: 990px){
+	h1.large {
+	    font-size: 56px;
+	    line-height: 60px;
+	    color:white;
+	    }
+}
+
+h2{
+    font-family: Raleway;
+	font-size: 56px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+@media (max-width: 576px){
+	h2{
+		font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color:white;
+	}
+}
+@media (max-width: 767px){
+    h2 {
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 500;
+    color:white;
+    }
+}
+@media (max-width: 990px){
+	h2{
+	    font-size: 42px;
+	    line-height: 60px;
+	    color:white;
+
+	    }
+}
+
+p.pa{
+	font-size:16px;
+	color: 40px;
+	font-weight: 500; 
+	margin-top: 50px;
+	font-family:Open Sans ;
+	line-height: 30px;
+}
+
+@media (max-width: 767px){
+    p.pa{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color:white;
+    margin-top: 50px;
+    }
+}
+
+.navbar-header{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	color: white;
+}
+
+.nav>li>a{
+	position: relative;
+	display: block;
+}
+
+
+.section1{
+	margin-top: 200px;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 30%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    background-color: #FFFFFF;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #FFFFFF; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+#mySearch {
+  /*width: 100%;*/
+  font-size: 18px;
+  /*padding: 11px;*/
+  border: 1px solid #ddd;
+  color:black;
+}
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  /*display: block*/
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
